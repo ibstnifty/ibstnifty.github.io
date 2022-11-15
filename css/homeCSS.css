@@ -27,7 +27,7 @@ header {
 
 
 #hd {
-  background-image: url('images/logo.jpeg');
+  background-image: url('../static/images/logo.jpeg');
   width:auto;
   position:relative;
   object-fit:cover;
