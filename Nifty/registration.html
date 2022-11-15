@@ -1,0 +1,160 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="/home/tewer/桌面/Nifty /regCSS.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+        
+        <!-- Bootstrap CSS & JS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="java/speechInfoJS.js"></script>
+
+    </head>
+
+    <header id="hd" style="background-color:black">
+        <!-- <div class="container container-responsive">
+            <div id="logo">
+                <img class="banner img-fluid pt-3" src="images/NIFT Banner.PNG">
+            </div>
+        </div> -->
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:black">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <img class="banner img-fluid" style="width:10%" src="images/NIFT Banner.PNG"> </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navResponsive" aria-controls="navResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navResponsive">
+                <ul id="headNav" class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active"> <a class="nav-link" href="file:///home/tewer/%E6%A1%8C%E9%9D%A2/Nifty%20/home.html#" target="_self"> Home </a></li>
+                    <li class="nav-item"> <a class="nav-link" href="#"> Events </a></li>
+                    <li class="nav-item"> <a class="nav-link" href="file:///home/tewer/%E6%A1%8C%E9%9D%A2/Nifty%20/registration.html#" target="_self"> Registration </a></li>
+                    <li class="nav-item"> <a class="nav-link" href="file:///home/tewer/%E6%A1%8C%E9%9D%A2/Nifty%20/schedule.html#"> Schedule </a></li>   
+                    <li class="nav-item"> <a class="nav-link" href="file:///home/tewer/%E6%A1%8C%E9%9D%A2/Nifty%20/contact.html#"> Contact </a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- <div class="container-fluid pb-5">    
+            <nav id="headNav" class="navbar navbar-expand-lg navbar-dark" style="background-color:black">
+                    <a class="navbar-brand" href="#"> <img class="banner img-fluid" style="width:20%" src="images/NIFT Banner.PNG"> </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navResponsive" aria-controls="navResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="navbar-collapse collapse" id="navResponsive">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0"> 
+                            <li class="nav-item active"> <a class="nav-link" href="file:///home/tewer/%E6%A1%8C%E9%9D%A2/Nifty%20/home.html#" target="_self"> Home </a></li>
+                            <li class="nav-item"> <a class="nav-link" href="#"> Events </a></li>
+                            <li class="nav-item"> <a class="nav-link" href="file:///home/tewer/%E6%A1%8C%E9%9D%A2/Nifty%20/registration.html#" target="_self"> Registration </a></li>
+                            <li class="nav-item"> <a class="nav-link" href="file:///home/tewer/%E6%A1%8C%E9%9D%A2/Nifty%20/schedule.html#"> Schedule </a></li>   
+                            <li class="nav-item"> <a class="nav-link" href="file:///home/tewer/%E6%A1%8C%E9%9D%A2/Nifty%20/contact.html#"> Contact </a></li>
+                        </ul>
+                    </div>
+            </nav>
+        </div> -->
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var header = document.getElementById("hd");
+            var sticky = header.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+              } else {
+                header.classList.remove("sticky");
+              }
+            }
+            </script>
+    </header>
+    <body id="bdy">
+        <br>
+        <div class="container container-responsive" style="width:50%">
+            <h2 style="font-size:xx-large">Registration</h2>
+            <hr>
+            <br>
+            <button id="SignUpForm" style="font-size:medium"> <a href="https://forms.gle/NpQRj5CnpgXbU8FcA" target="_blank"> Sign Up Here </a> </button>
+            <br>
+            
+            <ul>
+                <li id="option"> <b>Fees: </b>
+                    <i class="fas fa-solid fa-dollar-sign" aria-hidden="true"></i> <h4>750 NT/per person</h4>
+                    <h5 style="color:red">*Note: NIFTy is held on a Friday and Saturday</h5>
+                </li>
+                <li id="option"><b>Location: </b>
+                    <i class='fas fa-map-marker-alt' style='font-size:36px'></i><h4> International Bilingual School at Tainan Science Park (IBST) </h4>
+                </li>
+                <li id="option"> <b>Registration Deadline: </b>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i><h4 style="color:red">Feb 1st, 2023</h4>
+                </li>
+                <li id="option"> <b>NIFTY Date: </b>
+                    <i class="fa fa-calendar" aria-hidden="true"></i> <h4>NIFTy Date: March 10th ~ 11th, 2023</h4>
+                </li>
+                <li id="option"> <b>Accommodation: </b>
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <br>
+                    <ol id="hotels">
+                        <!--1-->
+                        <li>L’arc Hotel南科贊美酒店 (原南科商旅) 善化區成功路252號 06-583-8383  <br>
+                                <a href="http://www.larchotel.com.tw/" target="_blank"> http://www.larchotel.com.tw/ </a> <br>
+                                <strong style="color:red">* When booking L’arc Hotel, tell the front desk that you are participating NIFTy event. The discount price will be 3600NT for 4 people a room and 2180NT for 2 people a room. </strong>
+                        </li>
+                        <br>
+                        <!--2-->
+                        <li>Sendale Hotel 新大南科大飯店 新市鄉中正路 (06)5899111  <br>
+                            <a href="http://www.sendale.com.tw/tainan/index.php" target="_blank"> http://www.sendale.com.tw/tainan/index.php </a> <br>
+                        </li>
+                        <br>
+                        <!--3-->
+                        <li>Leader Hotel儷達商務飯店 新市鄉中興街 (06)5991313 <br>
+                            <a href="http://www.leader-hotel.com.tw/" target="_blank">  http://www.leader-hotel.com.tw/</a> <br>
+                            <a href="(https://www.facebook.com/pages/%E5%84%B7%E9%81%94%E5%95%86%E5%8B%99%E9%A3%AF%E5%BA%97/188314754526422)">FaceBook</a>
+                        </li>
+                        <br>
+                        <!--4-->
+                        <li>Grace-Garden Resort迎嘉花園酒店 新市鄉大營村 (06)5990055 <br>
+                            <a href="http://www.grace-garden.com.tw/ " target="_blank">http://www.grace-garden.com.tw/ </a> <br>
+                        </li>
+                        <br>
+                        <!--5-->
+                        <li>Country Motel田園別莊(善化鎮中正路) (06)583333<br>
+                            <a href="http://www.chateau-motel.com.tw/ezcatfiles/sc22/homepage/511/index.html" target="_blank"> http://www.chateau-motel.com.tw/ezcatfiles/sc22/homepage/511/index.html </a> <br>
+                            <a href="https://www.easytravel.com.tw/ehotel/default.aspx?n=10093"> https://www.easytravel.com.tw/ehotel/default.aspx?n=10093 </a>
+                        </li>
+                        <br>
+                        <!--6-->
+                        <li>Milan Model米蘭商務汽車旅館(善化鎮自由路) (06)5814567 <br>
+                            <a href="http://www.milanmotel.com.tw/milanmotel.html" target="_blank"> http://www.milanmotel.com.tw/milanmotel.html </a> <br>
+                        </li>
+                    </ol>
+                </li>
+                <li id="option">
+                    <strong> |NOTES FOR REGISTRATION | </strong>
+                    <ul>
+                        <li>
+                            <h4>Policy debaters cannot sign up for speech events or LD</h4>
+                        </li>
+                        <li>
+                            <h4>Speech event participants may sign up for LD or an interpretation event</h4>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        
+        </div>
+    </body>
+
+    <br>
+    <footer id="foot" class="text-center">
+        <div class="text-center py-3 mt-5 text-light" style="background-color: rgba(0, 0, 0, 1);">
+            © 2022   Copyright:
+            <a class="text-white" href="#">Tewer.com</a>
+            </div>
+    </footer>
+</html>

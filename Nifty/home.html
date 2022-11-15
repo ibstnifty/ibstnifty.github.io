@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="/home/tewer/桌面/Nifty /homeCSS.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Bootstrap CSS & JS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </head>
+
+    <header id="hd">
+        <div class="container container-responsive">
+            <div id="logo">
+                <img class="banner img-fluid pt-3" src="images/NIFT Banner.PNG">
+            </div>
+        </div>
+        <div class="container container-responsive">    
+                <nav id="headNav" class="navbar navbar-expand-lg pt-5 navbar-light bg-white">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navResponsive" aria-controls="navResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="navbar-collapse collapse" id="navResponsive">
+                        <ul class="navbar-nav me-auto mr-auto mb-lg-0"> 
+                            <li class="nav-item active"> <a class="nav-link" href="file:///home/tewer/%E6%A1%8C%E9%9D%A2/Nifty%20/home.html#" target="_self"> Home </a></li>
+                            <li class="nav-item"> <a class="nav-link" href="#"> Events </a></li>
+                            <li class="nav-item"> <a class="nav-link" href="file:///home/tewer/%E6%A1%8C%E9%9D%A2/Nifty%20/registration.html#" target="_self"> Registration </a></li>
+                            <li class="nav-item"> <a class="nav-link" href="file:///home/tewer/%E6%A1%8C%E9%9D%A2/Nifty%20/schedule.html#"> Schedule </a></li>   
+                            <li class="nav-item"> <a class="nav-link" href="file:///home/tewer/%E6%A1%8C%E9%9D%A2/Nifty%20/contact.html#"> Contact </a></li>
+                        </ul>
+                    </div>
+                </nav>
+        </div>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var header = document.getElementById("hd");
+            var sticky = header.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+              } else {
+                header.classList.remove("sticky");
+              }
+            }
+            </script>
+    </header>
+    <body id="bdy">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+        AOS.init({
+            duration:1200,
+        });
+        </script>
+        
+        <section class="timeline-section">
+            <!--What is Nifty-->
+            <div class="timeline-items">
+                <div class="timeline-item">
+                    <div class="timeline-dot"> </div>
+                    <div class="timeline-content" data-aos="fade-right">
+                        <h2> What is NIFTy?</h2> 
+                        <p>Nanke Invitational Forensics Tournament, or NIFTy, is an annual event held by IBST. </p>
+                        <p>Due to COVID 19 restrictions in the past few years, NIFTy was not held for the past two years.</p>
+                        <p>This year, NIFTy is back with events such as impromptu and policy debate this year.</p>
+                        <p> <b> NIFTy has been an annual tradition at IBST and we welcome you to join!</b></p> 
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot2"> </div>
+                    <div class="timeline-content" style="background-color:#E0C9A6">
+                        <div data-aos="fade-left"><img id="whatIsNifty" class="img-fluid " src="/home/tewer/桌面/Nifty /images/whatIsNifty.jpeg"></div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"> </div>
+                    <div class="timeline-content" style="background-color:#E0C9A6">
+                        <div data-aos="fade-right"><img id="aboutUs" class="img-fluid"      src="/home/tewer/桌面/Nifty /images/about.jpeg" ></div>
+                    </div>
+                </div>
+                
+
+                
+        </section>
+
+        <h1 class="text-center pb-3" data-aos="fade-up"> <b> We Welcome All of You to Join Us! </b></h1>
+        
+        <div id="slider" class="container container-responsive carousel slide" data-bs-ride="carousel" data-aos="zoom-in">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img class="img-fluid rounded mx-auto d-block" src="/home/tewer/桌面/Nifty /images/welcome1.jpeg">
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                    <img class="img-fluid rounded mx-auto d-block" src="/home/tewer/桌面/Nifty /images/welcome2.jpeg">
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img class="img-fluid rounded mx-auto d-block" src="/home/tewer/桌面/Nifty /images/welcome3.jpeg">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img class="img-fluid rounded mx-auto d-block" src="/home/tewer/桌面/Nifty /images/welcome4.jpeg">
+                </div>
+                <div class="carousel-item">
+                    <img class="img-fluid rounded mx-auto d-block" src="/home/tewer/桌面/Nifty /images/welcome5.jpeg">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            
+        </div>
+    </body>
+    <br>
+    <footer id="foot" class="text-center">
+        <div class="text-center py-3 mt-5 text-light" style="background-color: rgba(0, 0, 0, 1);">
+            © 2022   Copyright:
+            <a class="text-white" href="#">Tewer.com</a>
+            </div>
+    </footer>
+</html>

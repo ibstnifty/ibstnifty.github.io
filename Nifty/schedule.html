@@ -1,0 +1,176 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="/home/tewer/桌面/Nifty /scheduleCSS.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <!-- Bootstrap CSS & JS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="java/speechInfoJS.js"></script>
+    </head>
+
+    <header id="hd" style="background-color:black">
+        <!-- <div class="container container-responsive">
+            <div id="logo">
+                <img class="banner img-fluid pt-3" src="images/NIFT Banner.PNG">
+            </div>
+        </div> -->
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:black">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <img class="banner img-fluid" style="width:10%" src="images/NIFT Banner.PNG"> </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navResponsive" aria-controls="navResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navResponsive">
+                <ul id="headNav" class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active"> <a class="nav-link" href="file:///home/tewer/%E6%A1%8C%E9%9D%A2/Nifty%20/home.html#" target="_self"> Home </a></li>
+                    <li class="nav-item"> <a class="nav-link" href="#"> Events </a></li>
+                    <li class="nav-item"> <a class="nav-link" href="file:///home/tewer/%E6%A1%8C%E9%9D%A2/Nifty%20/registration.html#" target="_self"> Registration </a></li>
+                    <li class="nav-item"> <a class="nav-link" href="file:///home/tewer/%E6%A1%8C%E9%9D%A2/Nifty%20/schedule.html#"> Schedule </a></li>   
+                    <li class="nav-item"> <a class="nav-link" href="file:///home/tewer/%E6%A1%8C%E9%9D%A2/Nifty%20/contact.html#"> Contact </a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- <div class="container-fluid pb-5">    
+            <nav id="headNav" class="navbar navbar-expand-lg navbar-dark" style="background-color:black">
+                    <a class="navbar-brand" href="#"> <img class="banner img-fluid" style="width:20%" src="images/NIFT Banner.PNG"> </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navResponsive" aria-controls="navResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="navbar-collapse collapse" id="navResponsive">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0"> 
+                            <li class="nav-item active"> <a class="nav-link" href="file:///home/tewer/%E6%A1%8C%E9%9D%A2/Nifty%20/home.html#" target="_self"> Home </a></li>
+                            <li class="nav-item"> <a class="nav-link" href="#"> Events </a></li>
+                            <li class="nav-item"> <a class="nav-link" href="file:///home/tewer/%E6%A1%8C%E9%9D%A2/Nifty%20/registration.html#" target="_self"> Registration </a></li>
+                            <li class="nav-item"> <a class="nav-link" href="file:///home/tewer/%E6%A1%8C%E9%9D%A2/Nifty%20/schedule.html#"> Schedule </a></li>   
+                            <li class="nav-item"> <a class="nav-link" href="file:///home/tewer/%E6%A1%8C%E9%9D%A2/Nifty%20/contact.html#"> Contact </a></li>
+                        </ul>
+                    </div>
+            </nav>
+        </div> -->
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var header = document.getElementById("hd");
+            var sticky = header.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+              } else {
+                header.classList.remove("sticky");
+              }
+            }
+            </script>
+    </header>
+    <body id="bdy">
+        <br>
+        <div class="container container-responsive table-responsive-sm" style="width:50%">
+            <h2 style="font-size:xx-large">Schedule</h2>
+            <hr>
+            <table id="day1" class="table table-hover">
+                <caption class="text-center pb-3" style="caption-side:top">Day 1 (Friday Mar. 8)</caption>
+                <tr id="thead">
+                    <th> Time </th>
+                    <th> Events </th>
+                </tr>
+
+                <tr>
+                    <th> 4:20 ~ 5:00pm </th>
+                    <td> Supper and Registration - 1st Smooth Area </td>
+                </tr>
+
+                <tr>
+                    <th> 5:00 ~ 7:00pm</th>
+                    <td> Round 1 (Impromptu; Story Telling; Editorial Commentary; Policy Debate) </td>
+                </tr>
+
+                <tr>
+                    <th> 7:00 ~ 8:00pm</th>
+                    <td> Round 1 Lincoln Douglas (LD) <br>Round 2 (Dual Interpretation; Solo Interpretation; Policy Debate)</td>
+                </tr>
+
+                <tr>
+                    <th> 8:00 ~ 9:00pm</th>
+                    <td> Round 2 (LD ; Policy Debate)</td>
+                </tr>
+
+                <tr>
+                    <th> 9:00 ~</th>
+                    <td> Go Home</td>
+                </tr>
+            </table>
+        </div>
+
+        <!--Day 2-->
+        <br>
+        <div class="container container-responsive table-responsive-sm" style="width:50%">
+            <table id="day1" class="table table-hover">
+                <caption class="text-center pb-3" style="caption-side:top">Day 2 (Saturday Mar. 9)</caption>
+                <tr id="thead">
+                    <th> Time </th>
+                    <th> Events </th>
+                </tr>
+
+                <tr>
+                    <th>  8:00 ~ 8:50am</th>
+                    <td>  Arrival </td>
+                </tr>
+
+                <tr>
+                    <th>  9:00 ~ 10:00am</th>
+                    <td>  Round 3 (Impromptu; Story-telling; Solo Interpretation; Editorial Commentary; Policy Debate) </td>
+                </tr>
+
+                <tr>
+                    <th>  10:00 ~ 11:00am</th>
+                    <td>  Round 3 Policy Debate</td>
+                </tr>
+
+                <tr>
+                    <th>  11:00 ~ 12:00pm</th>
+                    <td>  Round 4 (Dual Interpretation; Solo Interpretation; LD; Policy Debate)</td>
+                </tr>
+
+                <tr>
+                    <th> 12:00 ~ 2:00pm</th>
+                    <td> Lunch Time </td>
+                </tr>
+                <tr>
+                    <th>  2:00 ~ 3:00pm</th>
+                    <td>  <b>Finals</b> (LD; Policy Debate)</td>
+                </tr>
+
+                <tr>
+                    <th>  3:00 ~ 4:00pm</th>
+                    <td>  <b>Finals</b> (Policy Debate)</td>
+                </tr>
+
+                <tr>
+                    <th>  4:00 ~ 4:30pm</th>
+                    <td>  Awards Ceremony - 3rd F Auditorium</td>
+                </tr>
+                <tr>
+                    <th>  4:30 ~</th>
+                    <td>  Happy ENDING!!</td>
+                </tr>
+            </table>
+        </div>
+
+    </body>
+    <br>
+    <footer id="foot" class="text-center">
+        <div class="text-center py-3 mt-5 text-light" style="background-color: rgba(0, 0, 0, 1);">
+            © 2022   Copyright:
+            <a class="text-white" href="#">Tewer.com</a>
+            </div>
+    </footer>
+</html>
