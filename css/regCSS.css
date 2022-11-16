@@ -155,3 +155,30 @@ button:hover{
   }
   
 }
+@media screen and (min-width:767px){
+  #option h4{
+    font-size:large;
+  }
+  #option h5{
+    font-size:large;
+  }
+
+  #option *{
+    font-size:large;
+  }
+  
+}
+@media screen and (min-width:800px){
+  #option h4{
+    font-size:x-large;
+  }
+  #option h5{
+    font-size:x-large;
+  }
+
+  #option *{
+    font-size:x-large;
+  }
+  
+}
+
