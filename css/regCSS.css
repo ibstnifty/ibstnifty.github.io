@@ -138,10 +138,20 @@ button:hover{
 
 #option {
   padding-bottom:5%;
-  font-size:xx-large;
+  font-size:large;
 }
 
 #hotels {
   padding-bottom:5%;
   font-size:medium;
+}
+
+@media screen and (max-width:576px){
+  #option h4{
+    font-size:medium;
+  }
+  #option h5{
+    font-size:initial;
+  }
+  
 }
