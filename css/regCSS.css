@@ -182,3 +182,24 @@ button:hover{
   
 }
 
+
+#banner {
+  width:50%;
+}
+#navResponsive {
+  flex-grow: 0.1;
+}
+
+#events {
+  margin-left:0px;
+}
+@media (max-width:567px){
+#banner {
+    width:40%;
+}
+#navResponsive {
+    flex-grow:1;
+}
+
+
+}
