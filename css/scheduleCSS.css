@@ -48,14 +48,14 @@
     position:relative;
   } 
   
-  #headNav li a {
+  #headNav li a, #eventsButton{
     color:white;
     text-decoration: none;
     text-transform: uppercase;
     font-size:auto;
   }
   
-  #headNav a:hover {
+  #headNav a:hover,#headNav button:hover {
     color: rgb(215, 211, 133);
   }
   
@@ -122,9 +122,26 @@ h2 {
   font-size:x-large;
 }
 
+#banner {
+  width:50%;
+}
+#navResponsive {
+  flex-grow: 0.1;
+}
+
+#events {
+  margin-left:0px;
+}
 @media (max-width:567px){
   #day1 caption, #day2 caption {
     font-size:larger;
   }
+  #banner {
+    width:40%;
+  }
+  #navResponsive {
+    flex-grow:1;
+  }
+
 
 }
