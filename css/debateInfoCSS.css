@@ -123,6 +123,10 @@ h2 {
   flex-grow: 0.1;
 }
 
+#debateThing {
+  width:50%;
+}
+
 #events {
   margin-left:0px;
 }
@@ -133,7 +137,9 @@ h2 {
   #navResponsive {
     flex-grow:1;
   }
-
+  #debateThing {
+    width:100%;
+  }
 
 }
   
