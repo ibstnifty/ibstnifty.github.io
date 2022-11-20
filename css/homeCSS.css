@@ -4,12 +4,6 @@
     box-sizing: border-box;
   }
   
-  /* header {
-    background-color:black;
-    height:12%;
-    position: relative;
-    display:flex;
-  } */
   
   #bdy {
     background-color:#E0C9A6;
@@ -20,19 +14,8 @@
     float:left;
   }
   
-  /* #logo img.banner{
-    position:relative;
-    left:20%;
-    float:left;
-    width:auto;
-    height:95%;
-    background-size:contain;
-    background-position:center;
-    cursor:pointer;
-  } */
   
   #headNav{
-    /* float:right; */
     margin:0 auto;
   }
   
@@ -81,7 +64,6 @@
   }
   
   body{
-    /* position:relative; */
     min-height: 100%;
     z-index:1;
   }  
@@ -277,11 +259,6 @@ h2 {
   }
 }
 
-
-
-#headNav {
-  display:block;
-}
 #banner {
   width:50%;
 }
