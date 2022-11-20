@@ -41,19 +41,18 @@ header {
   float:left;
 }
 
-#logo img.banner{
+/* #logo img.banner{
   position:relative;
   float:left;
   height:15%;
   background-size:contain;
   background-position:center;
   cursor:pointer;
-}
+} */
 
 #headNav{
-  float:
-  right;
-  margin:0 7.4px;
+/*   float:right; */
+  margin:0 auto;
 }
 
 #headNav ul {
