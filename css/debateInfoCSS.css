@@ -130,6 +130,11 @@ h2 {
 #events {
   margin-left:0px;
 }
+
+#regDetail {
+ width:50%;   
+}
+
 @media (max-width:567px){
   #banner {
     width:40%;
@@ -140,6 +145,9 @@ h2 {
   #debateThing {
     width:100%;
   }
-
+  
+   #regDetail {
+     width:100%;   
+    }
 }
   
