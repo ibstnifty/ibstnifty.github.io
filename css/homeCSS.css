@@ -137,6 +137,10 @@ h2 {
   height: 100%;
 }
 
+#navResponsive li a {
+    color:black;
+}
+
 .timeline-section {
   min-height:100vh;
   padding:100px 15px;
