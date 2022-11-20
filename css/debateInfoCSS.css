@@ -131,10 +131,6 @@ h2 {
   margin-left:0px;
 }
 
-#regDetail {
- width:50%;   
-}
-
 @media (max-width:567px){
   #banner {
     width:40%;
@@ -146,8 +142,5 @@ h2 {
     width:100%;
   }
   
-   #regDetail {
-     width:100%;   
-    }
 }
   
