@@ -14,7 +14,18 @@
     float:left;
   }
   
-  
+  #hd {
+    background-image: url('../static/images/logo.jpeg');
+    width:auto;
+    height:80%;
+    position:relative;
+    object-fit:cover;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   #headNav{
     margin:0 auto;
   }
