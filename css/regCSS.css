@@ -146,6 +146,10 @@ button:hover{
   font-size:medium;
 }
 
+#regDetail {
+   width:50%;   
+}
+
 @media screen and (max-width:576px){
   #option h4{
     font-size:medium;
@@ -153,7 +157,9 @@ button:hover{
   #option h5{
     font-size:initial;
   }
-  
+  #regDetail {
+     width:100%;   
+  }
 }
 @media screen and (min-width:767px){
   #option h4{
@@ -166,6 +172,7 @@ button:hover{
   #option *{
     font-size:large;
   }
+
   
 }
 @media screen and (min-width:800px){
@@ -201,5 +208,14 @@ button:hover{
     flex-grow:1;
 }
 
+  #regDetail {
+     width:100%;   
+  }
 
+}
+
+@media (max-width:800px) {
+  #regDetail {
+    width:100%;
+  }
 }
