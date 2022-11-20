@@ -172,7 +172,7 @@ h2 {
 }
 
 .timeline-item:nth-child(even){
-  max-width:1450px;
+  max-width:2000px;
   padding-left: calc(50% + 30px);
 }
 
