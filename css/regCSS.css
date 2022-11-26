@@ -125,6 +125,16 @@ h2 {
     text-decoration:none;
 }
 
+#signText {
+  color:white;
+  text-decoration:none;
+}
+
+#signText:hover{
+  color:#e1cdcd;
+  
+}
+
 button:hover{
     /* width:10rem; */
     background-color: rgb(186, 175, 175);
