@@ -16,11 +16,7 @@ function showText (id) {
     var foot = document.getElementById("foot");
     var text;
     y.style.textAlign="justify";
-    y.style.top="100%";
-    y.style.left="120%";
-    y.style.transform="translate(40%,0%)";
-    x.style.fontSize="20px";
-    x.style.display="inline-block";
+    x.style.fontSize="130%";
     foot.style.left="0";
 
 
@@ -63,8 +59,6 @@ function showText (id) {
         '<b><i><u>Analysis:</u></i></b> How well did the speaker address the prompt? Did the speech have points that were justified and significant?<br>'+
         '<b><i><u>Delivery:</u></i></b> Did the speaker have to deliver the speech smoothly? Did their voice sound confident, and did they have appropriate volume?'+
         '<br>';
-    }else if (id=="4"){
-
     }else{
         x.innerHTML='<b>(5) Story-Telling: </b>'+
         'In this event participants will have to tell a story as if they are presenting it to an audience.'+
