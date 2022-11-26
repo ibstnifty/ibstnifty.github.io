@@ -106,10 +106,6 @@
     border:none;
 }
 
-/* #optionDrop .link-text {
-    margin-left:5px;    
-    display:none;
-} */
 
 #optionDrop li button:hover{
     /* width:10rem; */
@@ -132,13 +128,10 @@ h2 {
 
 #content {
     text-align: justify;
-    top:100%;
-    left:120%;
-    transform:translate(40%,0%);
 }
 
 #pContent {
-    font-size: 20px;
+    font-size: 130%;
     display:inline-block;
 }
 
