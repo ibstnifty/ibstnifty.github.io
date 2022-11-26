@@ -61,18 +61,29 @@
             <br>
             <br>
             <!-- <button class="fap-bar" onclick="showContent()"><i class="fa fa-bars"></i></button> -->
-            <div id="temp">
-            <nav id="optionDrop">
-                    <ul class="nav-links">
-                        <li> <button> (1) <span class="link-text" onclick="showText('1')"> Dramatic Interpretation</span> </button></li>
-                        <li> <button>(2) <span class="link-text" onclick="showText('2')"> Dual Interpretation</span> </button></li>
-                        <li> <button> (3) <span class="link-text" onclick="showText('3')"> Editorial Commentary</span> </button></li>
-                        <li> <button>(4) <span class="link-text" onclick="showText('4')"> Impromptu Speaking</span></button></li>
-                        <li> <button> (5) <span class="link-text" onclick="showText('5')"> Story-telling</span> </button></li>
-                        <br>
-                    </ul>
-                </nav>
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:black">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <img id="banner" src="static/images/NIFT Banner.ico" class="img-fluid"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navResponsive" aria-controls="navResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navResponsive">
+                <ul id="headNav" class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active d-flex justify-content-center"> <a class="nav-link" href="index.html" target="_self"> Home </a></li>
+                    <li class="nav-item dropdown"> 
+                        <a class="nav-link dropdown-toggle d-flex justify-content-center" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Events</a>
+                        <ul class="dropdown-menu" style="background-color:gray">
+                            <li  class="dropdown-item d-flex justify-content-center"  style="margin-left:0px"><a href="speechInfo.html">Speech Events</a></li>
+                            <li class="dropdown-item d-flex justify-content-center" style="margin-left:0px"><a href="debateInfo.html">Debate Events</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item d-flex justify-content-center"> <a class="nav-link" href="registration.html#" target="_self"> Registration </a></li>
+                    <li class="nav-item d-flex justify-content-center"> <a class="nav-link" href="schedule.html#"> Schedule </a></li>   
+                    <li class="nav-item d-flex justify-content-center"> <a class="nav-link" href="contact.html#"> Contact </a></li>
+                </ul>
+              </div>
             </div>
+          </nav>
         </div>
         <div id="content" class="container col-sm-3">
             <p id="pContent">
