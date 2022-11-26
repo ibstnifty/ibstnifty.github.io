@@ -44,7 +44,7 @@ function showText (id) {
         ' The participant can write a script and use it during the speech.'+
         ' During the speech the participant will be seated.<br><br>'+
         'The speech will be graded on:   <br>'+
-        '<b><i>Organization</i></b>: How well the speaker organized their speech. Did the speech have a clear structure, and did the development of the speech go smoothly?'+
+        '<b><u><i>Organization</i></u></b>: How well the speaker organized their speech. Did the speech have a clear structure, and did the development of the speech go smoothly?'+
         '<br><u><b><i>Analysis</b></i></u>: How well did the speaker address the prompt? Did the speech have points that were justified and significant?'+
         '<br><u><b><i>Delivery</b></i></u>: Did the speaker have to deliver the speech smoothly? Did their voice sound confident, and did they have appropriate volume?';
     }else if (id=="4"){
