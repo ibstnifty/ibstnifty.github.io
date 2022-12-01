@@ -22,28 +22,30 @@ function showText (id) {
 
     if (id=="1"){
         x.innerHTML='<b>(1) Solo Interpretation: </b>'+
-        'In this event, participants will have to give a <b><u>7-10 minute</u></b> performance based on a memorized <b>speech/script/scene</b>'+
-        ' from any source of media. The speaker will have to <b>memorize and physically act</b> out the script.'+
-        ' Performances must also include an introduction written by the student to contextualize the performance and state the title and author.<br><br>'+
-        ' <i><b>No props are allowed,</i></b></i> so if the script requires an object, the speaker must act like it is there.<br><br>'+
-        ' The performance will be graded on: <br>'+
-        ' <b><u><i>Delivery:</b></u></i> Did the speaker have to deliver the speech smoothly? Did their voice sound confident, and did they have appropriate volume?<br>'+
-        ' <b><u><i>Stage presence:</b></u></i> Did the speaker maintain eye contact? Did they face the audience? Did they use movement to convey emotion?';
+                'In this event, participants will have to give a <b><u>7-10 minute</u></b> performance based on a memorized <b>speech/script/scene</b>'+
+                ' from any source of media. The speaker will have to <b>memorize and physically act</b> out the script.'+
+                ' Performances must also include an introduction written by the student to contextualize the performance and state the title and author.<br><br>'+
+                ' <b><i>No props are allowed,</i></b> so if the script requires an object, the speaker must act like it is there. Participants <b>may act as one or more characters however;</b> no props or costumes are allowed. No script is allowed on stage for this event either.<br><br>'+
+                ' The performance will be graded on: <br>'+
+                ' <b><u><i>Delivery:</i></u></b> Did the speaker have to deliver the speech smoothly? Did their voice sound confident, and did they have appropriate volume?<br>'+
+                ' <b><u><i>Stage presence:</i></u></b> Did the speaker maintain eye contact? Did they face the audience? Did they use movement to convey emotion';
     }else if (id=="2"){
-        x.innerHTML = '<b>(2) Dual Interpretation: </b>: In this event, participants in teams of 2 will act out a <b>7-10 minute performance</b> based on a memorized speech/script/scene from any source of media.'+
-        ' The speakers will have to memorize and physically act out the script.'+
-        ' Before you give your speech, the speaker must give context to whatever they will act out (all that is needed is the source of the speech/script/scene and the setting of the scene).'+
-        '<br><br><b><i>No props are allowed, so if the script requires an object, the speaker must act like it is there.</i></b><br><br>'+
-        'The performance will be graded on the: <br>'+
-        '<b><u><i>Chemistry</i></u></b>: Did the duo give their lines in a smooth manner that seemed natural? Did both members remember their lines?'+
+        x.innerHTML = '<b>(2) Dual Interpretation: </b>: Two competitors team up to deliver an <i><b>8-10-minute performance</i></b> of a script written by the performers.'+
+        ' Using off-stage focus, competitors convey emotion and environment through the relationships and interactions between characters through a variety of performance techniques.'+
+        ' Performances <b>must</b> also include an introduction written by the students to contextualize the performance and state the title and author.'+
+        " Each partner plays a key role in developing the piece's characters, relationships, plot, and more during a duo interpretation. Duo interpretation allows for students to do humorous, dramatic, or pieces that combine both into the performance."+
+        ' Age, maturity, and school standards should all be considered when choosing a topic for a duo interpretation.'+
+        ' The performance will be graded on the: <br>'+
+        ' <b><u><i>Chemistry</i></u></b>: Did the duo give their lines in a smooth manner that seemed natural? Did both members remember their lines?'+
         '<br><u><b><i>Delivery</i></b></u>: Did the speaker have to deliver the speech smoothly? Did their voice sound confident, and did they have appropriate volume?';
     }else if (id=="3"){
-        x.innerHTML='<b>(3) Impromptu Speaking:</b> The impromptu speech is an extemporaneous narration on a topic'+
-        ' unknown to the contestant until immediately before his/her performance. It is a SHORT speech'+
-        ' with an effective introduction, logical development, and fitting conclusion. Each contestant will'+
-        ' draw 3 possible topics from the bowl. Speakers will be given 30 seconds to choose a topic, and'+
-        ' then 1 minute to prepare their speech. Speeches must be <b><u>2 minutes long</u></b>, with 5 points being'+
-        ' deducted for going 10 seconds over or 10 seconds under 2 minutes.'+
+        x.innerHTML='<b>(3) Impromptu Speaking:</b>'+
+        ' The impromptu speech is a short narration on a topic unknown to the contestant until right before his performance.'+
+        ' This is a short speech with a hooking introduction, logical development, and a good conclusion. Each participant draws three possible topics from the bowl.'+
+        ' The speaker has <b>30 seconds</b> to choose a subject and <b>1 minute</b> to prepare his speech.'+
+        ' The speech is <b>2 minutes;</b> if he goes over 10 seconds or speaks for less than 2 minutes, he will be <b><u>deducted 5 points.</u></b><br>'+
+        ' An example of a prompt might be, “color affects how a person behaves.”'+
+
         '<br><br><b>Note cards are provided and permitted for this event.</b><br>The speech will be graded based on the:<br>'+
         '<b><i><u>Organization:</u></i></b> How well the speaker organized their speech. Did the speech have a clear structure, and did the development of the speech go smoothly?<br>'+  
         '<b><i><u>Analysis:</u></i></b> How well did the speaker address the prompt? Did the speech have points that were justified and significant?<br>'+
@@ -61,11 +63,11 @@ function showText (id) {
         '<br><u><b><i>Delivery</b></i></u>: Did the speaker have to deliver the speech smoothly? Did their voice sound confident, and did they have appropriate volume?';
     }else{
         x.innerHTML='<b>(5) Story-Telling: </b>'+
-        'In this event participants will have to tell a story as if they are presenting it to an audience.'+
-        ' Storytelling themes range widely and may include mysteries, heroism, or fairy tales.'+
-        ' Participants may use a chair.'+
-        ' The performance must be <b>at least 5 minutes long</b> and must not exceed 6 minutes.'+
-        ' The story must be presented from memory, with no manuscript.<br><br>'+
+        ' Story telling entails the art of presenting a published story appropriate for a child audience, defined in this case as those between the ages of 5-12.'+
+        ' Students tell the story as if presenting to that audience.'+
+        ' Storytelling themes range widely and may include mysteries, heroism, or fairy tales. Students may use a chair.'+
+        ' A storyteller <b>must choose words and concepts carefully, not only to reach this younger audience but also to hold their attention.</b>'+
+        ' Note that, due to the relatively low level of English in the target audience, the language chosen must match the vocabulary of the audience.'+
         'The performance will be graded on:<br>'+
         '<u><b><i>Chemistry:</i></b></u> Did the duo give their lines in a smooth manner that seemed natural? Did both members remember their lines?'+
         '<br><u><b><i>Delivery:</i></b></u> Did the speaker have to deliver the speech smoothly? Did their voice sound confident, and did they have appropriate volume?<br><br>';
