@@ -67,11 +67,11 @@ function showText (id) {
         ' Students tell the story as if presenting to that audience.'+
         ' Storytelling themes range widely and may include mysteries, heroism, or fairy tales. Students may use a chair.'+
         ' A storyteller <b>must choose words and concepts carefully, not only to reach this younger audience but also to hold their attention.</b>'+
-        ' Note that, due to the relatively low level of English in the target audience, the language chosen must match the vocabulary of the audience.'+
+        ' Note that, due to the relatively low level of English in the target audience, the language chosen must match the vocabulary of the audience.<br><br>'+
         'The performance will be graded on:<br>'+
         '<u><b><i>Chemistry:</i></b></u> Did the duo give their lines in a smooth manner that seemed natural? Did both members remember their lines?'+
-        '<br><u><b><i>Delivery:</i></b></u> Did the speaker have to deliver the speech smoothly? Did their voice sound confident, and did they have appropriate volume?<br><br>';
-
+        '<br><u><b><i>Delivery:</i></b></u> Did the speaker have to deliver the speech smoothly? Did their voice sound confident, and did they have appropriate volume?<br>';
+        '<p style="color:red">The presentation must be no longer than 6 minutes. No script is allowed on stage for this event.</p><br><br>'
     }
 }
 
