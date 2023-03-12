@@ -1,12 +1,11 @@
-<html>
-    <head>
+<html><head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <link rel="stylesheet" href="css/scheduleCSS.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&amp;display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
         <!-- Bootstrap CSS & JS -->
@@ -16,22 +15,22 @@
         <!-- FavIcon -->
         <link rel="icon" type="image/x-icon" href="static/images/icon.png">
     
-    </head>
-    <title> NIFTY Schedule </title>  
-    <header id="hd" style="background-color:black">
+    <title> NIFTY Schedule </title></head>
+      
+    <body id="bdy" data-new-gr-c-s-check-loaded="14.1100.0" data-gr-ext-installed=""><header id="hd" style="background-color:black" class="">
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:black">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html" target="_self"> <img id="banner" src="static/images/NIFT Banner.ico" class="img-fluid"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navResponsive" aria-controls="navResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navResponsive" aria-controls="navResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navResponsive">
+              <div class="navbar-collapse collapse" id="navResponsive" style="">
                 <ul id="headNav" class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item active d-flex justify-content-center"> <a class="nav-link d-flex justify-content-center" href="index.html" target="_self"> Home </a></li>
                     <li class="nav-item dropdown"> 
                         <a class="nav-link dropdown-toggle d-flex justify-content-center" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Events</a>
                         <ul class="dropdown-menu" style="background-color:gray">
-                            <li  class="dropdown-item d-flex justify-content-center"  style="margin-left:0px"><a class="nav-link d-flex justify-content-center" href="speechInfo.html">Speech Events</a></li>
+                            <li class="dropdown-item d-flex justify-content-center" style="margin-left:0px"><a class="nav-link d-flex justify-content-center" href="speechInfo.html">Speech Events</a></li>
                             <li class="dropdown-item d-flex justify-content-center" style="margin-left:0px"><a class="nav-link d-flex justify-content-center" href="debateInfo.html">Debate Events</a></li>
                         </ul>
                     </li>
@@ -57,59 +56,53 @@
             }
             </script>
     </header>
-    <body id="bdy">
+    
         <br>
         <div class="container container-responsive table-responsive-sm" style="width:50%">
             <h2 style="font-size:xx-large">Schedule</h2>
-            <hr>
-            <table id="day1" class="table table-hover">
-                <caption class="text-center pb-3" style="caption-side:top">Day 1 (Friday Mar. 3)</caption>
-                <tr id="thead">
-                    <th> Time </th>
-                    <th> Events </th>
-                </tr>
+            <hr><style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 
-                <tr>
-                    <th> 4:20 ~ 5:30pm </th>
-                    <td> Supper and Registration - 1st Assembly Area </td>
-                </tr>
+#sub {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
-                <tr>
-                    <th> 5:30 ~ 5:50pm</th>
-                    <td> Welcome and Briefing – 1st Floor Assembly Area </td>
-                </tr>
+input[type=submit]:hover {
+  background-color: #45a049;
+}</style>
+<form action="/action_page.php">
+    
+    <label for="events">Events</label><select id="events" name="event">
+      <option value="policy">Policy Debate</option>
+      <option value="ld">LD Debate</option>
+      <option value="edcom">Editorial Commentary</option>
+    </select>
 
-                <tr>
-                    <th> 6:00 ~ 7:00pm</th>
-                    <td> Round 1 (Duo, Solo Interpretation; Lincoln-Douglas) </td>
-                </tr>
+    
+    
 
-                <tr>
-                    <th> 7:00 ~ 8:00pm</th>
-                    <td> Round 1 (Impromptu; Story-Telling; Ed-Com) </td>
-                </tr>
-                
-                <tr>
-                    <th> 6:00 ~ 7:30pm </th>
-                    <td> Round 1 Policy Debate </td>
-                </tr>
-                
-                <tr>
-                    <th> 7:30 ~ 9:00pm </th>
-                    <td> Round 2 Policy Debate </td>
-                </tr>
-                
-                <tr>
-                    <th> 8:00 ~ 9:00pm </th>
-                    <td> Round 2 (Duo, Solo Interpretation; Lincoln-Douglas) </td>
-                </tr>
-                
-
-                <tr>
-                    <th> 9:00 ~</th>
-                    <td> Go Home</td>
-                </tr>
-            </table>
+    
+    
+  
+    <label for="name">Participant's Name</label><input type="text" id="name" name="name" placeholder="Your name.."><button type="button" value="Submit" id="sub"> Submit 
+</button>
+  </form>
+            
         </div>
 
         <!--Day 2-->
@@ -117,7 +110,7 @@
         <div class="container container-responsive table-responsive-sm" style="width:50%">
             <table id="day1" class="table table-hover">
                 <caption class="text-center pb-3" style="caption-side:top">Day 2 (Saturday Mar. 4)</caption>
-                <tr id="thead">
+                <tbody><tr id="thead">
                     <th> Time </th>
                     <th> Events </th>
                 </tr>
@@ -175,10 +168,10 @@
                     <th>  4:30 ~</th>
                     <td>  Happy ENDING!!</td>
                 </tr>
-            </table>
+            </tbody></table>
         </div>
 
-    </body>
+    
     <br>
     <footer id="foot" class="text-center">
         <div class="text-center py-3 mt-5 text-light" style="background-color: rgba(0, 0, 0, 1);">
@@ -186,4 +179,5 @@
             <a class="text-white" href="#">IBST NIFTY Team</a>
             </div>
     </footer>
-</html>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
