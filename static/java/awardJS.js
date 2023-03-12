@@ -28,11 +28,11 @@ function updateNames(){
     '<option value="Tim Ma"> Tim Ma </option>';
   }else{
     nameList.innerHTML = '<option selected>Select Your Name</option>'+
-    'option value="Anca Li & Jazlyn Shen"> Anca Li & Jazlyn Shen </option>'+
-    'option value="Wei Teng (Austin) Wang & Maggie Yumeng Lee"> Wei Teng (Austin) Wang & Maggie Yumeng Lee </option>'+
-    'option value="Karim Erraji & William Tzu-Yang Jen"> Karim Erraji & William Tzu-Yang Jen /option>'+
-    'option value="Charlotte Wang & Catherine Wu"> Charlotte Wang & Catherine Wu </option>'+
-    '<option value="Charlotte Anthea Lloyd & Stanley Yi-Hao Jen"> Charlotte Anthea Lloyd & Stanley Yi-Hao Jen /option>'+
+    '<option value="Anca Li & Jazlyn Shen"> Anca Li & Jazlyn Shen </option>'+
+    '<option value="Wei Teng (Austin) Wang & Maggie Yumeng Lee"> Wei Teng (Austin) Wang & Maggie Yumeng Lee </option>'+
+    '<option value="Karim Erraji & William Tzu-Yang Jen"> Karim Erraji & William Tzu-Yang Jen </option>'+
+    '<option value="Charlotte Wang & Catherine Wu"> Charlotte Wang & Catherine Wu </option>'+
+    '<option value="Charlotte Anthea Lloyd & Stanley Yi-Hao Jen"> Charlotte Anthea Lloyd & Stanley Yi-Hao Jen </option>'+
     'option value="Oliver (Hsun) OuYang & Ian Milo Cheng"> Oliver (Hsun) OuYang & Ian Milo Cheng </option>'+
     '<option value="Wen Ling Catherine, Lee & Sabrina Chu"> Wen Ling Catherine, Lee & Sabrina Chu </option>'+
     '<option value="Laila Erraji & Chelsea TsaiHsi Chiang"> Laila Erraji & Chelsea TsaiHsi Chiang </option>'+
