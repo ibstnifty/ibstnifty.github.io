@@ -68,11 +68,39 @@ var r1M1Score = {
   "Laila Erraji & Chelsea TsaiHsi Chiang":24,
   "Austin Lee & Dylan Pak":25,
   "Shannon Lo & Shaun Lee":17,
+  "Benjamin George Smith & Barkley William Wilfred Wang":22,
+  "Eliana Ko & Nethika Jayith Rajapakse":30
+};
+
+var r1M2Score = {
+  "Anca Li & Jazlyn Shen":30,
+  "Wei Teng (Austin) Wang & Maggie Yumeng Lee":17,
+  "Karim Erraji & William Tzu-Yang Jen":24,
+  "Charlotte Wang & Catherine Wu":18,
+  "Charlotte Anthea Lloyd & Stanley Yi-Hao Jen":11,
+  "Oliver (Hsun) OuYang & Ian Milo Cheng":11,
+  "Wen Ling Catherine, Lee & Sabrina Chu"23,
+  "Laila Erraji & Chelsea TsaiHsi Chiang":24,
+  "Austin Lee & Dylan Pak":20,
+  "Shannon Lo & Shaun Lee":21,
   "Benjamin George Smith & Barkley William Wilfred Wang":26,
   "Eliana Ko & Nethika Jayith Rajapakse":26
 };
 
-var 
+var r1TScore = {
+  "Anca Li & Jazlyn Shen":30,
+  "Wei Teng (Austin) Wang & Maggie Yumeng Lee":17,
+  "Karim Erraji & William Tzu-Yang Jen":24,
+  "Charlotte Wang & Catherine Wu":21,
+  "Charlotte Anthea Lloyd & Stanley Yi-Hao Jen":23,
+  "Oliver (Hsun) OuYang & Ian Milo Cheng":21,
+  "Wen Ling Catherine, Lee & Sabrina Chu":22,
+  "Laila Erraji & Chelsea TsaiHsi Chiang":24,
+  "Austin Lee & Dylan Pak":25,
+  "Shannon Lo & Shaun Lee":17,
+  "Benjamin George Smith & Barkley William Wilfred Wang":22,
+  "Eliana Ko & Nethika Jayith Rajapakse":30
+};
 
 
 
