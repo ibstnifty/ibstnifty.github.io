@@ -15,7 +15,7 @@ function updateNames(){
     '<option value="William Sultemeier"> William Sultemeier </option>'+
     '<option value="Bjorn Raditya Dhont"> Bjorn Raditya Dhont </option>';
   }else if (event=="ld"){
-    nameList.innerHTML = '<option selected>Select Your Name</option>'+
+    nameList.innerHTML = '<option selected> Select Your Name</option>'+
     '<option value="Daisy Tsai"> Daisy Tsai </option>'+
     '<option value="Arthur Bizon"> Arthur Bizon </option>'+
     '<option value="Solomon Ho"> Solomon Ho </option>'+
