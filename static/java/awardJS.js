@@ -1,8 +1,8 @@
 //Update Name Options
 function updateNames(){
-  var event=document.getElementId("events").value;
-  var nameList=document.getElementId("name");
-  if (event=="policy"){
+  var event=document.getElementById("events").value;
+  var nameList=document.getElementById("name");
+  if (event=="edcom"){
     nameList.innerHTML = '<option selected>Select Your Name</option>'+
     'option value="Adam Hayashi"> Adam Hayashi </option>'+
     'option value="Bo-Ning Wang"> Bo-Ning Wang </option>'+
@@ -44,8 +44,8 @@ function updateNames(){
 }
 
 function Awards(){
-  var events=document.getElementId("events").value;
-  var name=document.getElementId("name").value;
+  var events=document.getElementById("events").value;
+  var name=document.getElementById("name").value;
 }
 
 updateNames();
