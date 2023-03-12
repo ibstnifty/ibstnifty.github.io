@@ -16,12 +16,12 @@ function updateNames(){
     '<option value="Bjorn Raditya Dhont"> Bjorn Raditya Dhont </option>';
   }else if (event=="ld"){
     nameList.innerHTML = '<option selected>Select Your Name</option>'+
-    'option value="Daisy Tsai"> Daisy Tsai </option>'+
-    'option value="Arthur Bizon"> Arthur Bizon </option>'+
-    'option value="Solomon Ho"> Solomon Ho /option>'+
-    'option value="Bang-Chen Hsueh"> Bang-Chen Hsueh </option>'+
-    '<option value="Austin Han-Wen Chiang"> Austin Han-Wen Chiang /option>'+
-    'option value="Ke-Chun Chiu"> Ke-Chun Chiu </option>'+
+    '<option value="Daisy Tsai"> Daisy Tsai </option>'+
+    '<option value="Arthur Bizon"> Arthur Bizon </option>'+
+    '<option value="Solomon Ho"> Solomon Ho </option>'+
+    '<option value="Bang-Chen Hsueh"> Bang-Chen Hsueh </option>'+
+    '<option value="Austin Han-Wen Chiang"> Austin Han-Wen Chiang </option>'+
+    '<option value="Ke-Chun Chiu"> Ke-Chun Chiu </option>'+
     '<option value="Victor Kang"> Victor Kang </option>'+
     '<option value="Isabel Li"> Isabel Li </option>'+
     '<option value="S. Iniyan Achyudhan"> S. Iniyan Achyudhan </option>'+
