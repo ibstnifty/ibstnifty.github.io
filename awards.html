@@ -60,50 +60,44 @@
         <br>
         <div class="container container-responsive table-responsive-sm" style="width:50%">
             <h2 style="font-size:xx-large">Schedule</h2>
-            <hr><style>
-input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
+            <hr>
+            <style>
+                input[type=text], select {
+                  width: 100%;
+                  padding: 12px 20px;
+                  margin: 8px 0;
+                  display: inline-block;
+                  border: 1px solid #ccc;
+                  border-radius: 4px;
+                  box-sizing: border-box;
+                }
 
-#sub {
-  width: 100%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
+                #sub {
+                  width: 100%;
+                  background-color: #4CAF50;
+                  color: white;
+                  padding: 14px 20px;
+                  margin: 8px 0;
+                  border: none;
+                  border-radius: 4px;
+                  cursor: pointer;
+                }
 
-input[type=submit]:hover {
-  background-color: #45a049;
-}</style>
-<form action="/action_page.php">
-    
-    <label for="events">Events</label><select id="events" name="event">
-      <option value="policy">Policy Debate</option>
-      <option value="ld">LD Debate</option>
-      <option value="edcom">Editorial Commentary</option>
-    </select>
+                input[type=submit]:hover {
+                  background-color: #45a049;
+                }
+           </style>
 
-    
-    
-
-    
-    
-  
-    <label for="name">Participant's Name</label><input type="text" id="name" name="name" placeholder="Your name.."><button type="button" value="Submit" id="sub"> Submit 
-</button>
-  </form>
-            
-        </div>
+           <label for="events">Events</label>
+              <select id="events" name="event">
+                <option value="policy">Policy Debate</option>
+                <option value="ld">LD Debate</option>
+                <option value="edcom">Editorial Commentary</option>
+              </select>
+           <label for="name">Participant's Name</label> <input type="text" id="name" name="name" placeholder="Your name..">
+           <button type="button" value="Submit" id="sub" onclick="Awards()"> Submit </button>
+           <script src="static/java/awardJS.js"></script>
+    </div>
 
         <!--Day 2-->
         <br>
