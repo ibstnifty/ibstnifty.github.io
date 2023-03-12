@@ -45,5 +45,3 @@ function Awards(){
   var events=document.getElementById("events").value;
   var name=document.getElementById("name").value;
 }
-
-updateNames();
