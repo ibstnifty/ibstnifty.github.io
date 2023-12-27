@@ -112,6 +112,11 @@ h2 {
 }
 
 #debateFormat tr,#debateFormat td,#debateFormat th{
+  background-color:rgb(97, 95, 90);
+  color: white;
+}
+
+#debateFormat tr,#debateFormat td,#debateFormat th{
   text-align: center;
   border: 1px solid black;
 }
