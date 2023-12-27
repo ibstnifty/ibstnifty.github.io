@@ -111,7 +111,7 @@ h2 {
     font-size:120%;
 }
 
-#policyFormat tr,#policyFormat td,#policyFormat th{
+#debateFormat tr,#debateFormat td,#debateFormat th{
   text-align: center;
   border: 1px solid black;
 }
