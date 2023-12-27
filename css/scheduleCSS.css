@@ -108,7 +108,7 @@ h2 {
   text-align: center;
 }
 
-#day1 #thead, #day1 th{
+#day1 #thead, #day1 th, #day1 td{
   color:white;
   text-align:center;
   background-color: rgb(97, 95, 90);
