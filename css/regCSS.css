@@ -108,8 +108,8 @@ h2 {
     padding-top: 102px;
   }
 
-  #SignUpForm {
-    color:white;
+  #SignUpFormSpeech {
+    color:black;
     margin: 0;
     position: relative;
     top: 30%;
@@ -124,6 +124,39 @@ h2 {
     padding:5px 5px;
     text-decoration:none;
 }
+  #SignUpFormDebate1 {
+    color:black;
+    margin: 0;
+    position: relative;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    align-items:center;
+    text-decoration:none;
+    border:none;
+    appearance: none;
+    background-color: gray;
+    padding:5px 5px;
+    text-decoration:none;
+}
+  #SignUpFormDebate2 {
+    color:black;
+    margin: 0;
+    position: relative;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    align-items:center;
+    text-decoration:none;
+    border:none;
+    appearance: none;
+    background-color: gray;
+    padding:5px 5px;
+    text-decoration:none;
+}
+
 
 #signText {
   color:white;
