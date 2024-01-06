@@ -35,7 +35,7 @@ function showText (id) {
         ' An example of a prompt might be, “color affects how a person behaves.”';
     }else {
         x.innerHTML='(3) Story Telling (Solo): Story telling entails the art of presenting a published story appropriate for a child audience, defined in '+
-        'this case as those between the ages of 5-12. Students tell the story as if presenting to that audience.'+
+        'this case as those between the ages of 5-12. Students tell the story as if presenting to that audience. '+
         'Storytelling themes range widely and may include mysteries, heroism, or fairy tales. Students may use '+
         'a chair. A storyteller must choose words and concepts carefully, not only to reach this younger '+
         'audience but also to hold their attention. Note that, due to the relatively low level of English in the '+
