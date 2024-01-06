@@ -31,7 +31,7 @@ function showText (id) {
         ' The impromptu speech is a short narration on a topic unknown to the contestant until right before his performance.'+
         ' This is a short speech with a hooking introduction, logical development, and a good conclusion. Each participant draws three possible topics from the bowl.'+
         ' The speaker has <b>30 seconds</b> to choose a subject and <b>1 minute</b> to prepare his speech.'+
-        ' The speech is <b>2 minutes;</b> if he goes over 10 seconds or speaks for less than 2 minutes, he will be <b><u>deducted 5 points.</u></b><br><br>'+
+        ' The speech is <b>2 minutes;</b> if the speaker goes over 10 seconds or speaks for less than 2 minutes, the speaker will be <b><u>deducted 5 points.</u></b><br><br>'+
         ' An example of a prompt might be, “color affects how a person behaves.”';
     }else {
         x.innerHTML='(3) Story Telling (Solo): Story telling entails the art of presenting a published story appropriate for a child audience, defined in '+
