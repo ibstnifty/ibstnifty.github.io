@@ -34,12 +34,12 @@ function showText (id) {
         ' The speech is <b>2 minutes;</b> if he goes over 10 seconds or speaks for less than 2 minutes, he will be <b><u>deducted 5 points.</u></b><br><br>'+
         ' An example of a prompt might be, “color affects how a person behaves.”';
     }else {
-        x.innerHTML='(3) Story Telling (Solo): Story telling entails the art of presenting a published story appropriate for a child audience, defined in'+
+        x.innerHTML='(3) Story Telling (Solo): Story telling entails the art of presenting a published story appropriate for a child audience, defined in '+
         'this case as those between the ages of 5-12. Students tell the story as if presenting to that audience.'+
-        'Storytelling themes range widely and may include mysteries, heroism, or fairy tales. Students may use'+
-        'a chair. A storyteller must choose words and concepts carefully, not only to reach this younger'+
-        'audience but also to hold their attention. Note that, due to the relatively low level of English in the'+
-        'target audience, <b>the language chosen must match the vocabulary of the audience.</b> The'+
+        'Storytelling themes range widely and may include mysteries, heroism, or fairy tales. Students may use '+
+        'a chair. A storyteller must choose words and concepts carefully, not only to reach this younger '+
+        'audience but also to hold their attention. Note that, due to the relatively low level of English in the '+
+        'target audience, <b>the language chosen must match the vocabulary of the audience.</b> The '+
         'presentation must be no longer than <b><u>6 minutes</u></b>. No script is allowed on stage for this event.';
     }
 }
