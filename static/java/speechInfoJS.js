@@ -34,11 +34,11 @@ function showText (id) {
         ' The speech is <b>2 minutes;</b> if the speaker goes over 10 seconds or speaks for less than 2 minutes, the speaker will be <b><u>deducted 5 points.</u></b><br><br>'+
         ' An example of a prompt might be, “color affects how a person behaves.”';
     }else {
-        x.innerHTML='<b>(3) Editorial Commentary (Solo):</b>
-                Editorial commentary is a scripted original speech which offers an analysis of and commentary on a current news event. 
-                The speaker must read from the manuscript and sit while delivering the speech. The time limit for this event is <b>between 1:45 and 2:00 minutes.</b> 
-                Students going under or over the time limit by more than 10 seconds will be deducted 3 speaker points. 
-                <b>Script is allowed for this event and should be written before the tournament begins.</b>';
+        x.innerHTML='<b>(3) Editorial Commentary (Solo):</b>'+
+                'Editorial commentary is a scripted original speech which offers an analysis of and commentary on a current news event. '+
+               'The speaker must read from the manuscript and sit while delivering the speech. The time limit for this event is <b>between 1:45 and 2:00 minutes.</b> '+
+                'Students going under or over the time limit by more than 10 seconds will be deducted 3 speaker points.'+ 
+                '<b>Script is allowed for this event and should be written before the tournament begins.</b>';
     }
 }
 
